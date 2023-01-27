@@ -1,0 +1,25 @@
+Step By Step to host a static website in AWS S3 Bucket:
+----------------------------------------------------------
+
+1) Open AWS Management console
+
+2) Go to S3
+
+3) Create a Bucket(unique)
+
+4) Uncheck Block all public access checkbox
+
+5) Check Acknowledge checkbox
+
+6) Click Create bucket button
+
+7) S3 > Buckets > Properties > Static website hosting > Enable
+Provide Home page(index.html) and Error page(error.html) => Save changes
+
+8) S3 > Buckets > Permissions > Bucket policy > Edit
+
+Demo Bucket policy json file is available in this folder. Bucket Policy can generated from AWS as well. => Save changes
+
+9)  S3 > Buckets > Objects > Upload > Add Files > Upload
+
+10) S3 > Buckets > Properties > Static website hosting > Bucket website endpoint, we can use that url to test. 
