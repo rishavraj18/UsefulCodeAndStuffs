@@ -1,0 +1,26 @@
+1) Go to https://nodejs.org/en/download/
+
+2) Download latest version of node in respective OS
+
+3) Refer https://docs.npmjs.com/downloading-and-installing-node-js-and-npm 
+
+4) To download the latest version of npm, on the command line, run the following command: 
+npm install -g npm or npm install npm@latest -g
+
+5) Check node and npm version:
+   node -v
+   npm -v
+
+6) If required, set environment variable. Refer below link
+https://love2dev.com/blog/node-is-not-recognized-as-an-internal-or-external-command/
+
+Open Control Panel -> System and Security -> System -> Advanced System Settings -> Environment Variables
+In "User variables" or "System variables" find variable PATH and add node.js folder path as value. 
+Usually it is C:\Program Files\nodejs;. 
+
+If variable doesn't exists, create it.
+
+Restart your IDE or computer.
+
+
+  
